@@ -1,0 +1,10 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: url('/gfx/logo.png') center no-repeat #fff;
+  background-size: 600px 200px;
+}

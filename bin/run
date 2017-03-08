@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -e
+
+sed \
+  -e "s/SERVER_NAME/$SERVER_NAME/" \
+  -e "s/URL/$URL/" \
+  /code/etc/nginx.conf > /etc/nginx/nginx.conf
+
+exec nginx
