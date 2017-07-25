@@ -1,0 +1,6 @@
+{
+  "tags": [
+    "quay.io/coderiety/coderiety-website:{{REF}}",
+    "quay.io/coderiety/coderiety-website:{{SHA}}"
+  ]
+}
